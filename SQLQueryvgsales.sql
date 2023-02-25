@@ -1,16 +1,16 @@
 SELECT * FROM portfolioproject..vgsales
 order by year
 
---
+-- MAIN FOCUS: Which specific elements in the gaming industry are more popular than others?
 
--- What specific elements in the gaming industry more popular than others 
--- Clean out a row with NULL platform
--- Since not many data for anything after 2017, deleted some rows for those years
+-- Clean out a row with NULL platform and year
+-- Since not many data for anything after 2017, deleted some rows for those years to not affect the analysis
+
 DELETE FROM portfolioproject..vgsales WHERE platform is NULL;
 DELETE FROM portfolioproject..vgsales WHERE year is NULL;
 DELETE FROM portfolioproject..vgsales WHERE year = 2017 or year = 2020;
 
--- Reset Ranking
+-- Reset Ranking after the deletion
 
 WITH cte AS (
     SELECT *, r = RANK() OVER(ORDER BY global_sales desc,name, platform)
@@ -21,6 +21,7 @@ SET rank = r
 FROM cte c;
 
 --Checked to see any duplicate, anything with more than two of the same global_sales and name
+
 Select a.rank, a.name, a.platform, b.rank, b.name, b.platform 
 from portfolioproject..vgsales a 
 join portfolioproject..vgsales b
@@ -29,6 +30,7 @@ join portfolioproject..vgsales b
 	and a.platform <> b.platform
 
 -- Amount of game by genre, publisher, platform
+
 SELECT count(name) as #ofgame, publisher from portfolioproject..vgsales
 group by publisher
 order by count(name) desc
