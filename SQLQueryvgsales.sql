@@ -59,8 +59,6 @@ Select year, round(sum(NA_sales),2) as NA,round(sum(EU_sales),2) as EU,round(sum
 FROM portfolioproject..vgsales
 Group by year
 order by year
---Selenium
---forecast
 
 --For each platform, which region sold most? Window function
 
@@ -144,9 +142,10 @@ group by genre, publisher
 Having count(genre) > 9
 order by publisher, count(genre) desc
 
--- Make rank list, for every top 10's, 
+-- Make rank list, for every top 10's IN PROGRESS
 
 -- Numbers of genre by years, largest amount of genre of the year
+
 SELECT year, genre, count(genre) as amount 
 from portfolioproject..vgsales
 group by year, genre
