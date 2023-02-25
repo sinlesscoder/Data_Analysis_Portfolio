@@ -20,7 +20,7 @@ UPDATE c
 SET rank = r 
 FROM cte c;
 
---Checked to see any duplicate, anything with more than two of the same global_sales and name
+--Check to see any duplicate, anything with more than two of the same global_sales and name
 
 Select a.rank, a.name, a.platform, b.rank, b.name, b.platform 
 from portfolioproject..vgsales a 
