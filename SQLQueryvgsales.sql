@@ -88,38 +88,14 @@ group by year, most_sales
 order by year;
 
 
--- Genre popularity by year (NEED HELP)
+-- Most produced genre by year
 
-with temp as (Select year, genre, COUNT(genre) as stuff from portfolioproject..vgsales
-group by year, genre
-order by year)
-select distinct year, genre, max(stuff) from temp
-group by year, genre 
-order by year
-
--- Rank function, partition by 
--- where rank = 1
-Select year, genre, COUNT(genre), rank() over (order by count(genre) desc partition by year) as stuff from portfolioproject..vgsales
-group by year, genre
-order by year
-
-select t.genre, t.year, x.stuff
-from portfolioproject..vgsales t
-join (Select year, COUNT(genre) as stuff from portfolioproject..vgsales
-group by year) x
-on x.year = t.year
-order by x.year
-
-
-Select year, genre, COUNT(genre) as stuff from portfolioproject..vgsales
-group by year, genre
-order by year, count(genre)
-
-
-Select year, COUNT(genre) as stuff from portfolioproject..vgsales
-group by year
-order by year
-
+SELECT *
+  FROM (SELECT year, genre, 
+  rank() over (partition by year order by count(genre) desc) as stuff 
+  from portfolioproject..vgsales
+  group by year, genre) a
+WHERE stuff = 1
 
 -- Amount of games AND Profit from each Publisher top 20
 
