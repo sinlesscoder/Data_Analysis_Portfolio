@@ -29,20 +29,14 @@ join portfolioproject..vgsales b
 	and a.rank = b.rank
 	and a.platform <> b.platform
 
--- Amount of game by genre, publisher, platform
+-- Amount of game by genre, publisher, platform top 50
 
-SELECT count(name) as #ofgame, publisher from portfolioproject..vgsales
-group by publisher
-order by count(name) desc
-
-SELECT count(name), genre, year from portfolioproject..vgsales
-group by genre, year
-order by year, count(name) desc
-
-SELECT count(platform) as #ofPlatform, round(sum(Global_Sales),2) as Profit, publisher from portfolioproject..vgsales
-group by publisher
-order by round(sum(Global_Sales),2) desc
-
+SELECT * FROM (
+SELECT round(sum(Global_Sales),2) as Profit, count(name) as #ofgame, publisher,
+rank() OVER (ORDER BY round(sum(Global_Sales),2) DESC) AS n
+from portfolioproject..vgsales
+group by publisher) as x
+where n <= 50
 
 -- Sum of sales for each platform throughout different regions (unnecessary)
 SELECT platform, round(sum(NA_sales),2) as NA,round(sum(EU_sales),2) as EU,round(sum(jp_sales),2) as JP,round(sum(other_sales),2) as Others
@@ -87,7 +81,6 @@ Select year, most_sales,count(most_sales) as amount_of_times from temp
 group by year, most_sales
 order by year;
 
-
 -- Most produced genre by year
 
 SELECT *
@@ -104,21 +97,12 @@ Group by Publisher
 HAVING COUNT(Name) > 100
 order by Games desc
 
---Profit from each publisher top 20 (unnecessary)
-
-Select top 20 publisher, round(sum(Global_Sales),2) as Profit FROM portfolioproject..vgsales
-Group by Publisher
-HAVING COUNT(Name) > 100
-order by sum(Global_Sales) desc
-
 -- Genre by publisher
 
 Select Genre, publisher, count(genre) As number from portfolioproject..vgsales
 group by genre, publisher
 Having count(genre) > 9
 order by publisher, count(genre) desc
-
--- Make rank list, for every top 10's IN PROGRESS
 
 -- Numbers of genre by years, largest amount of genre of the year
 
