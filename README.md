@@ -14,8 +14,9 @@ I begin with data cleaning, where I removed all data from 2016 to 2020, since th
 Then, to see if there is any duplicate game names and global_sales, I decided to use join function, joining the table to itself to see if anything is equal.
 
 After finish up cleaning the data, I asked a question for the dataset: 
-What is the amount
+How many times did one region had the most sales for each different games over the each year?
 
+To query this, I used a with function to make a temporary table with a case statement to add a count each time a region tops the sale for the game. To visualize the result, I used public tableau linked below:
 https://public.tableau.com/app/profile/ali.ahmed3520 
 ![Screenshot_2](https://user-images.githubusercontent.com/121634275/222937327-78618396-1999-4760-b16e-e26af601746d.png)
 ![Screenshot_1](https://user-images.githubusercontent.com/121634275/222937328-91f689d1-e8c5-4514-bdd0-8aeff67c5186.png)
