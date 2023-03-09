@@ -18,6 +18,7 @@ How many times did one region had the most sales for each different games over t
 
 Visualization 
 -
+-
 My first question is, how many times did one region had the most sales for each different games over each year?
 
 To query this, I used a with function to make a temporary table with a case statement to add a count each time a region tops the sale for the game. To visualize the result, I used public tableau linked below:
