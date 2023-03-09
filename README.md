@@ -18,7 +18,6 @@ How many times did one region had the most sales for each different games over t
 
 Visualization 
 -
--
 My first question is, how many times did one region had the most sales for each different games over each year?
 
 To query this, I used a with function to make a temporary table with a case statement to add a count each time a region tops the sale for the game. To visualize the result, I used public tableau linked below:
@@ -26,7 +25,7 @@ To query this, I used a with function to make a temporary table with a case stat
 https://public.tableau.com/app/profile/ali.ahmed3520 
 ![Screenshot_2](https://user-images.githubusercontent.com/121634275/222937327-78618396-1999-4760-b16e-e26af601746d.png)
 
-I approached with this question because I wanted to know which region is the biggest market over the years. Looking at the graph, Japan had the most sales in 1980s. After around 1995, sales in North America drastically surpassed the market in Japan. I assume this was the case because popular publisher started off in Japan as their first entry to the industry, then later on 1995, they spread their business across the world, and North America generally having the biggest market, the amount of top sales will be at NA.
+I approached with this question because I wanted to know which region is the biggest market over the years. Looking at the graph, Japan had the most sales in 1980s. After around 1995, sales in North America drastically surpassed the market in Japan. I assume this was the case because popular publisher started off in Japan as their first entry to the industry, then later on 1995, they spread their business across the world, and North America generally having the biggest market, the amount of top sales will be at NA. Another thing to note here is that newer publisher around the world entered the gaming industry, which would affect also the total sales.
 
 Next, I am interested in how many publisher existed over the time period.
  
