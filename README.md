@@ -31,8 +31,10 @@ Now that we know North America having the largest market, now we want to know wh
 
 ![Screenshot_1](https://user-images.githubusercontent.com/121634275/222937328-91f689d1-e8c5-4514-bdd0-8aeff67c5186.png)
 
-Here, I have decided to list top 20 publishers by their profit using the TOP function on SQL. I was curious about the quantity of games the top publishers have produced in total, since I wanted to know if the quantity mattered in gaining much profit. In the bar graph, most company has greater profit if they have greater quantity. However, it was not the case for one publisher, being Nintendo. It has less games than publisher like Electronic Art and Activision, but has greater profit. Quantity of the games usually correspond to the profit, but not always.
+Here, I have decided to list top 20 publishers by their profit using the TOP and COUNT function on SQL. I was curious about the quantity of games the top publishers have produced in total, since I wanted to know if the quantity mattered in gaining much profit. In the bar graph, most company has greater profit if they have greater quantity. However, it was not the case for one publisher, being Nintendo. It has less games than publisher like Electronic Art and Activision, but has greater profit. Quantity of the games usually correspond to the profit, but not always.
 
 Now I am interested in seeing what type of games are popular.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/121634275/222937566-13220c64-4931-4f90-b54c-86f57561f534.png)
+
+
