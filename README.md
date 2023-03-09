@@ -24,20 +24,22 @@ To query this, I used a with function to make a temporary table with a case stat
 
 https://public.tableau.com/app/profile/ali.ahmed3520 
 ![Screenshot_2](https://user-images.githubusercontent.com/121634275/222937327-78618396-1999-4760-b16e-e26af601746d.png)
+-
 
 I approached with this question because I wanted to know which region is the biggest market over the years. Looking at the graph, Japan had the most sales in 1980s. After around 1995, sales in North America drastically surpassed the market in Japan. I assume this was the case because popular publisher started off in Japan as their first entry to the industry, then later on 1995, they spread their business across the world, and North America generally having the biggest market, the amount of top sales will be at NA. Another thing to note here is that newer publisher around the world entered the gaming industry, which would affect also the total sales.
 
 Now that we know North America having the largest market, now we want to know what is the top publisher in general, and the metric here is the amount of total profit.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/121634275/222937328-91f689d1-e8c5-4514-bdd0-8aeff67c5186.png)
-
+-
 Here, I have decided to list top 20 publishers by their profit using the TOP and COUNT function on SQL. I was curious about the quantity of games the top publishers have produced in total, since I wanted to know if the quantity mattered in gaining much profit. In the bar graph, most company has greater profit if they have greater quantity. However, it was not the case for one publisher, being Nintendo. It has less games than publisher like Electronic Art and Activision, but has greater profit. Quantity of the games usually correspond to the profit, but not always.
 
 Now I am interested in seeing what type of games are popular.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/121634275/222937566-13220c64-4931-4f90-b54c-86f57561f534.png)
 
-For querying this using SQL, I have used a Subquery, rank(), PARTITION BY (window function) to query the amount of games for different Genre. According to the pie chart, Action Genre seems to be produced the most, assuming it is the most popular in general. 
+For querying this using SQL, I have used a Subquery, rank(), PARTITION BY (window function) to query the amount of games for different Genre. The query'd data shows the amount of time a genre was ranked one at most produced amount during each year. According to the pie chart, Action Genre seems to be ranked one the most amount of time, so I would assume the genre is the most popular in general. Then I was curious about the actual total profit by all the existing genre.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/121634275/224179294-b920cb8c-30f7-4650-9614-24a4be0124d6.png)
+
 
