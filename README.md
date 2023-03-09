@@ -27,7 +27,10 @@ https://public.tableau.com/app/profile/ali.ahmed3520
 
 I approached with this question because I wanted to know which region is the biggest market over the years. Looking at the graph, Japan had the most sales in 1980s. After around 1995, sales in North America drastically surpassed the market in Japan. I assume this was the case because popular publisher started off in Japan as their first entry to the industry, then later on 1995, they spread their business across the world, and North America generally having the biggest market, the amount of top sales will be at NA. Another thing to note here is that newer publisher around the world entered the gaming industry, which would affect also the total sales.
 
-Next, I am interested in how many publisher existed over the time period.
- 
+Now that we know North America having the largest market, now we want to know what is the top publisher in general, and the metric here is the amount of total profit.
+
 ![Screenshot_1](https://user-images.githubusercontent.com/121634275/222937328-91f689d1-e8c5-4514-bdd0-8aeff67c5186.png)
+
+
+
 ![Screenshot_3](https://user-images.githubusercontent.com/121634275/222937566-13220c64-4931-4f90-b54c-86f57561f534.png)
