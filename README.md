@@ -37,4 +37,7 @@ Now I am interested in seeing what type of games are popular.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/121634275/222937566-13220c64-4931-4f90-b54c-86f57561f534.png)
 
+For querying this using SQL, I have used a Subquery, rank(), PARTITION BY (window function) to query the amount of games for different Genre. According to the pie chart, Action Genre seems to be produced the most, assuming it is the most popular in general. 
+
+![Screenshot_4](https://user-images.githubusercontent.com/121634275/224179294-b920cb8c-30f7-4650-9614-24a4be0124d6.png)
 
