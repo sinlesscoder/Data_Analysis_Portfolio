@@ -42,4 +42,4 @@ For querying this using SQL, I have used a Subquery, rank(), PARTITION BY (windo
 
 ![Screenshot_4](https://user-images.githubusercontent.com/121634275/224179294-b920cb8c-30f7-4650-9614-24a4be0124d6.png)
 
-For querying, used SUM function on SQL. After seeing the visualization of the data, you see there are genres that did not appear on the pie chart. Those genre has never reached rank one in production in any given year, however, the genre Misc has higher profit than genre like Fighting, one that appeared to have topped in production amount. 
+For querying, used SUM function on SQL. After seeing the visualization of the data, you see there are genres that did not appear on the pie chart. Those genre has never reached rank one in production in any given year, however, the genre, Misc, has higher profit than genre like Fighting, one that appeared to have topped in production amount. 
