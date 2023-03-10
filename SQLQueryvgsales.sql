@@ -111,4 +111,9 @@ from portfolioproject..vgsales
 group by year, genre
 order by year, count(genre)
 
--- percentage of each genre for each year using total number of produced games
+--Total amount of profit for each genre
+
+SELECT genre, round(SUM(global_sales),2) as TotalSales 
+  from portfolioproject..vgsales
+  group by genre
+  order by round(SUM(global_sales),2) desc
