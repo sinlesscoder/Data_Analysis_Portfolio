@@ -7,7 +7,7 @@ This repository serves as a showcase of my skills, a place to share my projects,
 
 # Portfolio Projects
 
-For this project, I worked on a dataset of video game sales found on kaggle, where I graph the trend of different element of video games over the range of time period. I wanted to do this particular project because I love games myself, and was interested to see how was the game like from 1980s and how the trend changed overtime. 
+For my first project, I worked on a dataset of video game sales found on kaggle, where I graph the trend of different element of video games over the range of time period. I wanted to do this particular project because I love games myself, and was interested to see how was the game like from 1980s and how the trend changed overtime. 
 
 I begin with data cleaning, where I removed all data from 2016 to 2020, since they were not enough information to show the flow of the market. I've also deleted any rows with NULL value for either platform and/or year column. After removing the datas, I used WITH, RANK(), and window function to reset a column for ranking. 
 
