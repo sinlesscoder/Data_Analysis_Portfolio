@@ -4,6 +4,7 @@
 
 - [About](#about)
 - [SQL Project](#sql-project)
+  - [Visualization](#visualization)  
 - [Python Project](#python-project)
 
 
