@@ -6,7 +6,7 @@
 - [Exploration - SQL Project](#exploration---sql-project)
   - [Visualization](#visualization)  
   - [Conclusion](#conclusion)  
-- [Python Project](#python-project)
+- [Python Panda Project](#python-panda-project)
 
 
 # About
@@ -60,7 +60,7 @@ Conclusion
 -
 In conclusion, this project on video game sales was a great way to learn and practice using SQL for data cleaning and querying. By removing unnecessary data and using various SQL functions, I was able to answer questions about regional sales, top publishers, and popular genres in the industry. Through visualization, I was able to gain insights into the trends and changes in the video game market over time. Overall, this project not only allowed me to improve my SQL skills but also provided me with a better understanding of the video game industry.
 
-# Python Project
+# Python Panda Project
 For my second project, I have worked on Python using Jupyter Notebook, where I initially used Selenium to scrape data of headset details from Amazon.com, and put them into an Excel file. After extracting and converting them into an excel file, I have cleaned the data, and then saves the cleaned data to the same Excel file.
 
 After finishing, I have asked several questions that would show patterns in the data, and answer them using visualization with Matplotlib.
