@@ -4,7 +4,7 @@
 
 - [About](#about)
 - [SQL Project](#sql-project)
-- [Python Project](#python_project)
+- [Python Project](#python-project)
 
 
 # About
@@ -56,7 +56,7 @@ For querying, used SUM function on SQL. After seeing the visualization of the da
 
 
 
-# Python_Project
+# Python Project
 For my second project, I have worked on Python, where I initially used Selenium to scrape data of headset details from Amazon.com, and put them into an Excel file. After extracting and converting them into an excel file, I have cleaned the data, and then saves the cleaned data to the same Excel file.
 
 After finishing, I have asked several questions that would show patterns in the data, and answer them using visualization with Matplotlib.
