@@ -1,5 +1,9 @@
 # Ali Ahmed - Data Analysis Portfolio
 
+#Table of Content
+## Sql
+## Python Panda
+
 # About
 I'm Ali! Recent graduate, obtaining a Bachelor of Art (B.A) degree from New York University, with major in Economics. Currently seeking Data Analyst opportunities as I to hone my skills in various programming languages (SQL, Python). Self-taught SQL using w3schools and datalemur.
 
