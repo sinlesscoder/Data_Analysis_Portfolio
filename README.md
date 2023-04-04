@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [About](#about)
-- [SQL Project](#sql_project)
+- [SQL Project](#sql-project)
 - [Python Project](#python_project)
 
 
@@ -14,7 +14,7 @@ This repository serves as a showcase of my skills, a place to share my projects,
 
 This is an access to my [Public Tableau account](https://public.tableau.com/app/profile/ali.ahmed3520/viz/vgsales_16778898900110/Dashboard1)
 
-# SQL_Project
+# SQL Project
 
 For my first project, I worked on a dataset of video game sales found on kaggle, where I graph the trend of different element of video games over the range of time period. I wanted to do this particular project because I love games myself, and was interested to see how was the game like from 1980s and how the trend changed overtime. 
 
