@@ -5,8 +5,6 @@
 - [About](#about)
 - [SQL Project](#sql_project)
 - [Python Project](#python_project)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 # About
@@ -31,9 +29,8 @@ Visualization
 -
 My first question is, how many times did one region had the most sales for each different games over each year?
 
-To query this, I used a with function to make a temporary table with a case statement to add a count each time a region tops the sale for the game. To visualize the result, I used public tableau linked below:
+To query this, I used a with function to make a temporary table with a case statement to add a count each time a region tops the sale for the game. 
 
-https://public.tableau.com/app/profile/ali.ahmed3520 
 ![Screenshot_2](https://user-images.githubusercontent.com/121634275/222937327-78618396-1999-4760-b16e-e26af601746d.png)
 -
 
