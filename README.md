@@ -1,15 +1,20 @@
 # Ali Ahmed - Data Analysis Portfolio
 
-#Table of Content
-## Sql
-## Python Panda
+## Table of Contents
+
+- [About](#about)
+- [SQL Project](#sql_project)
+- [Python Project](#python_project)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 # About
 I'm Ali! Recent graduate, obtaining a Bachelor of Art (B.A) degree from New York University, with major in Economics. Currently seeking Data Analyst opportunities as I to hone my skills in various programming languages (SQL, Python). Self-taught SQL using w3schools and datalemur.
 
 This repository serves as a showcase of my skills, a place to share my projects, and a way to track my progress in Data Analytics and Data Science-related topics. 
 
-# Portfolio Projects
+# SQL_Project
 
 For my first project, I worked on a dataset of video game sales found on kaggle, where I graph the trend of different element of video games over the range of time period. I wanted to do this particular project because I love games myself, and was interested to see how was the game like from 1980s and how the trend changed overtime. 
 
@@ -52,6 +57,7 @@ Now I am interested to see amount of times a genre had top profit of the year.
 
 -
 
+# Python_Project
 For my second project, I have worked on Python, where I initially used Selenium to scrape data of headset details from Amazon.com, and put them into an Excel file. After extracting and converting them into an excel file, I have cleaned the data, and then saves the cleaned data to the same Excel file.
 
 After finishing, I have asked several questions that would show patterns in the data, and answer them using visualization with Matplotlib.
