@@ -62,3 +62,4 @@ For my second project, I have worked on Python, where I initially used Selenium 
 
 After finishing, I have asked several questions that would show patterns in the data, and answer them using visualization with Matplotlib.
 
+You can access the code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/Amazon%20Selenium.ipynb)
