@@ -16,7 +16,7 @@ This repository serves as a showcase of my skills, a place to share my projects,
 
 This is an access to my [Public Tableau account](https://public.tableau.com/app/profile/ali.ahmed3520/viz/vgsales_16778898900110/Dashboard1)
 
-# Exploration SQL Project
+# Exploration - SQL Project
 
 For my first project, I worked on a dataset of video game sales found on Kaggle, where I graph the trend of different elements of video games over the range of period. I wanted to do this particular project because I love games myself, and was interested to see what was the game like in the 1980s and how the trend changed over time. 
 
