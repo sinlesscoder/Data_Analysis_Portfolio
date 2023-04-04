@@ -71,8 +71,10 @@ You can access the code in this repository by clicking [here](https://github.com
 Visualization<a name="section2"></a>
 -
 Question 1: What is the distribution of headset prices in the dataset?
+--
 To answer this question, I have decided to use a histogram with matplotlib since they are helpful for showing distribution of variable.  
 ![download](https://user-images.githubusercontent.com/121634275/229909574-0a2fa00a-7c42-4ae4-984b-58aeef8d3b6b.png)
+
 ![download (1)](https://user-images.githubusercontent.com/121634275/229909573-eb600509-f8c1-473b-b847-98e6073fb0fb.png)
 ![download (2)](https://user-images.githubusercontent.com/121634275/229909572-2e29bfad-a278-435f-ae8b-e1d85e6b3462.png)
 ![download (3)](https://user-images.githubusercontent.com/121634275/229909569-c5cbee67-2c48-4c85-9cb7-2069f44dfa1a.png)
