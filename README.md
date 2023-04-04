@@ -58,10 +58,7 @@ For querying, used the SUM function on SQL. After seeing the visualization of th
 
 Conclusion
 -
-
-In conclusion, the main focus is to identify which specific elements in the gaming industry are more popular than others. The code cleans the data by deleting rows with NULL values in the platform and year columns, and deleting rows for years 2017 and 2020 since there isn't enough data for those years. The code then resets the ranking after the deletion to update the rank of the remaining rows. It checks for duplicates by identifying any rows with more than two of the same global sales and name.
-
-The code then examines the amount of games by genre, publisher, and platform, selecting the top 50. It also sums up the sales for each platform throughout different regions. The code then analyzes the total amount of sales for each year and by region. The next query examines for each platform, which region sold the most using a window function. The code then identifies the most produced genre by year and examines the amount of games and profit from each publisher, selecting the top 20 publishers that have produced more than 100 games. It also identifies the number of genres by publisher and genre by years, selecting the largest amount of genre for each year. Lastly, the code identifies the total amount of profit for each genre.
+In conclusion, this project on video game sales was a great way to learn and practice using SQL for data cleaning and querying. By removing unnecessary data and using various SQL functions, I was able to answer questions about regional sales, top publishers, and popular genres in the industry. Through visualization, I was able to gain insights into the trends and changes in the video game market over time. Overall, this project not only allowed me to improve my SQL skills but also provided me with a better understanding of the video game industry.
 
 # Python Project
 For my second project, I have worked on Python using Jupyter Notebook, where I initially used Selenium to scrape data of headset details from Amazon.com, and put them into an Excel file. After extracting and converting them into an excel file, I have cleaned the data, and then saves the cleaned data to the same Excel file.
