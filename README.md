@@ -7,7 +7,7 @@
   - [Visualization](#visualization)  
   - [Conclusion](#conclusion)  
 - [Python Panda Project](#python-panda-project)
-  - [Visualization](#visualization)  
+  - [Visualization](#section2)  
 
 
 # About
@@ -68,7 +68,7 @@ After finishing, I have asked several questions that would show patterns in the 
 
 You can access the code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/Amazon%20Selenium.ipynb)
 
-Visualization
+Visualization<a name="section2"></a>
 -
 Question 1: What is the distribution of headset prices in the dataset?
 To answer this question, I have decided to use a histogram with matplotlib since they are helpful for showing distribution of variable.  
