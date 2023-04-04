@@ -75,7 +75,7 @@ Question 1: What is the distribution of headset prices in the dataset?
 To answer this question, I have decided to use a histogram with matplotlib since they help show the distribution of variables.
 ![download](https://user-images.githubusercontent.com/121634275/229909574-0a2fa00a-7c42-4ae4-984b-58aeef8d3b6b.png)
 
-Based on the histogram, the dataset is positively skewed with most headsets priced under 50 USD, as shown by the histogram plotted using the given code. On average, the value of the headset is around 50 USD, then drastically drops in the amount as price increases.
+Based on the histogram, the dataset is positively skewed with most headsets priced under 50 USD, as shown by the histogram plotted using the given code. On average, the value of the headset is around 50 USD, then drastically drops in the amount as price increases. From range 50 to 100, the amount of product is reduced by over 50 percent, then about 70 percent from 120 to 170. Then there is a small increase in the amount at the price around 350 to 420.
 
 Question 2: Is there a correlation between price and rating?
 -
