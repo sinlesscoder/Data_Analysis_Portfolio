@@ -54,7 +54,6 @@ For querying, used SUM function on SQL. After seeing the visualization of the da
 
 You can access the SQL code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/SQLQueryvgsales.sql).
 
--
 
 # Python_Project
 For my second project, I have worked on Python, where I initially used Selenium to scrape data of headset details from Amazon.com, and put them into an Excel file. After extracting and converting them into an excel file, I have cleaned the data, and then saves the cleaned data to the same Excel file.
