@@ -72,8 +72,8 @@ Visualization<a name="section2"></a>
 -
 Question 1: What is the distribution of headset prices in the dataset?
 To answer this question, I have decided to use a histogram with matplotlib since they are helpful for showing distribution of variable.  
-![download (4)](https://user-images.githubusercontent.com/121634275/229909567-36a85900-eded-41cc-8c72-2a125191d8c1.png)
-![download (3)](https://user-images.githubusercontent.com/121634275/229909569-c5cbee67-2c48-4c85-9cb7-2069f44dfa1a.png)
-![download (2)](https://user-images.githubusercontent.com/121634275/229909572-2e29bfad-a278-435f-ae8b-e1d85e6b3462.png)
-![download (1)](https://user-images.githubusercontent.com/121634275/229909573-eb600509-f8c1-473b-b847-98e6073fb0fb.png)
 ![download](https://user-images.githubusercontent.com/121634275/229909574-0a2fa00a-7c42-4ae4-984b-58aeef8d3b6b.png)
+![download (1)](https://user-images.githubusercontent.com/121634275/229909573-eb600509-f8c1-473b-b847-98e6073fb0fb.png)
+![download (2)](https://user-images.githubusercontent.com/121634275/229909572-2e29bfad-a278-435f-ae8b-e1d85e6b3462.png)
+![download (3)](https://user-images.githubusercontent.com/121634275/229909569-c5cbee67-2c48-4c85-9cb7-2069f44dfa1a.png)
+![download (4)](https://user-images.githubusercontent.com/121634275/229909567-36a85900-eded-41cc-8c72-2a125191d8c1.png)
