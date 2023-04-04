@@ -7,6 +7,7 @@
   - [Visualization](#visualization)  
   - [Conclusion](#conclusion)  
 - [Python Panda Project](#python-panda-project)
+  - [Visualization](#visualization)  
 
 
 # About
