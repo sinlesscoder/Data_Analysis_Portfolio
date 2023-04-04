@@ -18,6 +18,8 @@ This is an access to my [Public Tableau account](https://public.tableau.com/app/
 
 For my first project, I worked on a dataset of video game sales found on kaggle, where I graph the trend of different element of video games over the range of time period. I wanted to do this particular project because I love games myself, and was interested to see how was the game like from 1980s and how the trend changed overtime. 
 
+You can access the SQL code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/SQLQueryvgsales.sql).
+
 I begin with data cleaning, where I removed all data from 2016 to 2020, since they were not enough information to show the flow of the market. I've also deleted any rows with NULL value for either platform and/or year column. After removing the datas, I used WITH, RANK(), and window function to reset a column for ranking. 
 
 Then, to see if there is any duplicate game names and global_sales, I decided to use join function, joining the table to itself to see if anything is equal.
@@ -52,7 +54,6 @@ For querying this using SQL, I have used a Subquery, rank(), PARTITION BY (windo
 
 For querying, used SUM function on SQL. After seeing the visualization of the data, you see there are genres that did not appear on the pie chart. Those genre has never reached rank one in production in any given year, however, the genre, Misc, has higher profit than genre like Fighting, one that appeared to have topped in production amount.
 
-You can access the SQL code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/SQLQueryvgsales.sql).
 
 
 # Python_Project
