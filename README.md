@@ -66,6 +66,8 @@ For my second project, I have worked on Python using Jupyter Notebook, where I i
 
 After finishing, I have asked several questions that would show patterns in the data, and answer them using visualization with Matplotlib.
 
+There isn't much reason to why I chose headset for my unique dataset, but I was having issue with my previous one, so I wanted a new one. I decided to use Selenium to take all headset details on amazon and have them all in excel file. categorized them with their name, asin number (something like ID), price, average rating, and amount of rating.
+
 You can access the code in this repository by clicking [here](https://github.com/sinlesscoder/Data_Analysis_Portfolio/blob/main/Amazon%20Selenium.ipynb)
 
 Visualization<a name="section2"></a>
