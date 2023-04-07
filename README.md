@@ -90,6 +90,8 @@ Question 3: How many headsets fall under each rating category?
 -
 ![download (3)](https://user-images.githubusercontent.com/121634275/229909569-c5cbee67-2c48-4c85-9cb7-2069f44dfa1a.png)
 
+I decided to use bar graph with matplotlib, since that would accurately differentiate between different rating. Based on the graph, the amount of ratings rises to max from rating of 4.0, then stays constant until 4.7, then decreasing again. This graph is shows 
+
 Question 4: How many headsets fall under each price category?
 -
 ![download (4)](https://user-images.githubusercontent.com/121634275/229909567-36a85900-eded-41cc-8c72-2a125191d8c1.png)
