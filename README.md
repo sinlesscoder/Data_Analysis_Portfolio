@@ -86,10 +86,10 @@ Question 2: Is there a correlation between price and rating?
 
 Among the product under the price of 60 USD, I wanted to see the correlation between rating and each price interval. Decided to use scatterplot for this particular question since it can show which rating the pricetag generally had. According to the plot, most of the headsets are rated above 4.0, but there aren't much correlation in the range of 4.0 to 5.0. From this result, there is not much correlation between price and rating.
 
-Question 4: How many headsets fall under each rating category?
+Question 3: How many headsets fall under each rating category?
 -
 ![download (3)](https://user-images.githubusercontent.com/121634275/229909569-c5cbee67-2c48-4c85-9cb7-2069f44dfa1a.png)
 
-Question 5: How many headsets fall under each price category?
+Question 4: How many headsets fall under each price category?
 -
 ![download (4)](https://user-images.githubusercontent.com/121634275/229909567-36a85900-eded-41cc-8c72-2a125191d8c1.png)
