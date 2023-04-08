@@ -100,5 +100,5 @@ Initally, I checked the top 50 most common words from the product title, also kn
 
 ![download (6)](https://user-images.githubusercontent.com/121634275/230694307-7fc56121-62d8-4967-aed8-c92f3d4b61fa.png)
 
-I decided to zoom into the box part of the graph to better see the difference. 
+I decided to zoom into the box part of the graph to better see the difference. From here you see all of their medium rating is 4.3. Gaming and Wired have a very similar middle 50%, being the box in the graph, range of data, as well as the outliar look visually same, so I assume most gaming headset is also wired. Microphone seems to have wider range of rating compared to other feature, then we would think because there are more microphone headset than others.
 
