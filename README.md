@@ -96,7 +96,7 @@ Question 4: How would the unique feature some headset have would differ from oth
 -
 ![download (5)](https://user-images.githubusercontent.com/121634275/230694266-f9afdd43-09a1-4497-aa90-3a8cde3806e2.png)
 
-Initally, I checked the top 50 most common words from the product title, also known as the name column, and manually chose which featured words to use, since some can just be words like "the". After choosing, adding new columns corresponding to that featured word, and marked 1 in each row of the column if the "Name" column contains the word, and 0 otherwise. Then finally after adding the new columns, I have 
+Initally, I checked the top 50 most common words from the product title, also known as the name column, and manually chose which featured words to use, since some can just be words like "the". After choosing, adding new columns corresponding to that featured word, and marked 1 in each row of the column if the "Name" column contains the word, and 0 otherwise. Then finally after adding the new columns, I have made arrays with all the numbers in Rating column that had featured column as "1" in the same row. Named the arrays with corresponding featured name, and made a boxplot using matplotlib.
 
 ![download (6)](https://user-images.githubusercontent.com/121634275/230694307-7fc56121-62d8-4967-aed8-c92f3d4b61fa.png)
 
