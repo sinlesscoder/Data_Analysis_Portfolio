@@ -100,3 +100,5 @@ Initally, I checked the top 50 most common words from the product title, also kn
 
 ![download (6)](https://user-images.githubusercontent.com/121634275/230694307-7fc56121-62d8-4967-aed8-c92f3d4b61fa.png)
 
+I decided to zoom into the box part of the graph to better see the difference. 
+
