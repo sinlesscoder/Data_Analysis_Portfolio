@@ -3,6 +3,8 @@ order by year
 
 -- MAIN FOCUS: Which specific elements in the gaming industry are more popular than others?
 
+-- 1. Data Cleaning
+
 -- Clean out a row with NULL platform and year
 -- Since not many data for anything after 2017, deleted some rows for those years to not affect the analysis
 
@@ -28,6 +30,8 @@ join portfolioproject..vgsales b
 	on a.name = b.name
 	and a.rank = b.rank
 	and a.platform <> b.platform
+	
+-- 2. Data Exploration
 
 -- Amount of game by genre, publisher, platform top 50
 
