@@ -6,8 +6,7 @@
 - [Exploration - SQL Project](#exploration---sql-project)
   - [Visualization](#visualization)  
   - [Conclusion](#conclusion)  
-- [Python Panda Project](#python-panda-project)
-  - [Visualization](#section2)  
+
 
 
 # About
